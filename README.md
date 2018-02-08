@@ -1,0 +1,2 @@
+# Zeregina
+Klasean egindako eredua
