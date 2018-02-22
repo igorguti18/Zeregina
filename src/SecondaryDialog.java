@@ -36,6 +36,11 @@ public class SecondaryDialog extends javax.swing.JDialog {
         jLabel1.setText("Hello World!");
 
         jButtonOK.setText("OK");
+        jButtonOK.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonOKActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -62,9 +67,11 @@ public class SecondaryDialog extends javax.swing.JDialog {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    private void jButtonOKActionPerformed(java.awt.event.ActionEvent evt){
+
+    private void jButtonOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonOKActionPerformed
         this.dispose();
-    }
+    }//GEN-LAST:event_jButtonOKActionPerformed
+    
     /**
      * @param args the command line arguments
      */
